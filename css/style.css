@@ -1,0 +1,47 @@
+.container {
+    padding: 10px;
+}
+
+.container .table {
+    overflow-x: hidden;
+}
+
+.btn-editar {
+    width: 65%;
+}
+
+label {
+    font-weight: bold;
+    color: #707070;
+}
+
+@media (max-width: 900px) {
+    /* Criando as classes para estilização em celular! */
+    .actions-links {
+        flex-direction: column;
+        gap: 2px;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    /* Escondendo as fotos dos usuarios/enfermeiros no index.php de cada um! */
+    .img-flex {
+        display: none;
+    }
+
+    .container-index {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .cards-index .links-index .btn {
+        width: 100%;
+        text-align: center;
+        margin: 5px auto;
+        padding: 10px 0px;
+    }
+}
